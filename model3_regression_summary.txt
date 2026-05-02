@@ -1,0 +1,63 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      life_satisfaction   R-squared:                       0.709
+Model:                            OLS   Adj. R-squared:                  0.685
+Method:                 Least Squares   F-statistic:                     29.35
+Date:                Sat, 02 May 2026   Prob (F-statistic):          1.10e-101
+Time:                        19:39:52   Log-Likelihood:                -203.20
+No. Observations:                 510   AIC:                             486.4
+Df Residuals:                     470   BIC:                             655.8
+Df Model:                          39                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================================================
+                                                            coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------------------------
+Intercept                                                 7.5351      0.105     71.665      0.000       7.328       7.742
+C(education, Treatment(reference='ED0-2'))[T.ED3_4]       0.4053      0.041      9.953      0.000       0.325       0.485
+C(education, Treatment(reference='ED0-2'))[T.ED5-8]       0.7653      0.041     18.793      0.000       0.685       0.845
+C(age_group, Treatment(reference='Y16-24'))[T.Y25-34]    -0.4314      0.053     -8.205      0.000      -0.535      -0.328
+C(age_group, Treatment(reference='Y16-24'))[T.Y35-49]    -0.4882      0.053     -9.287      0.000      -0.592      -0.385
+C(age_group, Treatment(reference='Y16-24'))[T.Y50-64]    -0.5755      0.053    -10.947      0.000      -0.679      -0.472
+C(age_group, Treatment(reference='Y16-24'))[T.Y_GE65]    -0.5314      0.053    -10.108      0.000      -0.635      -0.428
+C(country, Treatment(reference='AT'))[T.BE]               0.0200      0.137      0.146      0.884      -0.249       0.289
+C(country, Treatment(reference='AT'))[T.BG]              -1.1200      0.137     -8.170      0.000      -1.389      -0.851
+C(country, Treatment(reference='AT'))[T.CH]               0.0400      0.137      0.292      0.771      -0.229       0.309
+C(country, Treatment(reference='AT'))[T.CY]              -0.1267      0.137     -0.924      0.356      -0.396       0.143
+C(country, Treatment(reference='AT'))[T.CZ]              -0.0933      0.137     -0.681      0.496      -0.363       0.176
+C(country, Treatment(reference='AT'))[T.DE]              -0.5200      0.137     -3.793      0.000      -0.789      -0.251
+C(country, Treatment(reference='AT'))[T.DK]              -0.0800      0.137     -0.584      0.560      -0.349       0.189
+C(country, Treatment(reference='AT'))[T.EA20]            -0.2933      0.137     -2.140      0.033      -0.563      -0.024
+C(country, Treatment(reference='AT'))[T.EE]              -0.4667      0.137     -3.404      0.001      -0.736      -0.197
+C(country, Treatment(reference='AT'))[T.EL]              -0.6667      0.137     -4.863      0.000      -0.936      -0.397
+C(country, Treatment(reference='AT'))[T.ES]              -0.2400      0.137     -1.751      0.081      -0.509       0.029
+C(country, Treatment(reference='AT'))[T.EU27_2020]       -0.2533      0.137     -1.848      0.065      -0.523       0.016
+C(country, Treatment(reference='AT'))[T.FI]               0.2333      0.137      1.702      0.089      -0.036       0.503
+C(country, Treatment(reference='AT'))[T.FR]              -0.3533      0.137     -2.577      0.010      -0.623      -0.084
+C(country, Treatment(reference='AT'))[T.HR]              -0.1800      0.137     -1.313      0.190      -0.449       0.089
+C(country, Treatment(reference='AT'))[T.HU]              -0.4000      0.137     -2.918      0.004      -0.669      -0.131
+C(country, Treatment(reference='AT'))[T.IE]              -0.0667      0.137     -0.486      0.627      -0.336       0.203
+C(country, Treatment(reference='AT'))[T.IT]              -0.2000      0.137     -1.459      0.145      -0.469       0.069
+C(country, Treatment(reference='AT'))[T.LT]              -0.3067      0.137     -2.237      0.026      -0.576      -0.037
+C(country, Treatment(reference='AT'))[T.LU]              -0.3667      0.137     -2.675      0.008      -0.636      -0.097
+C(country, Treatment(reference='AT'))[T.LV]              -0.5933      0.137     -4.328      0.000      -0.863      -0.324
+C(country, Treatment(reference='AT'))[T.MK]              -1.2333      0.137     -8.996      0.000      -1.503      -0.964
+C(country, Treatment(reference='AT'))[T.MT]               0.0467      0.137      0.340      0.734      -0.223       0.316
+C(country, Treatment(reference='AT'))[T.NL]              -0.0067      0.137     -0.049      0.961      -0.276       0.263
+C(country, Treatment(reference='AT'))[T.NO]              -0.0067      0.137     -0.049      0.961      -0.276       0.263
+C(country, Treatment(reference='AT'))[T.PL]               0.0467      0.137      0.340      0.734      -0.223       0.316
+C(country, Treatment(reference='AT'))[T.PT]              -0.0467      0.137     -0.340      0.734      -0.316       0.223
+C(country, Treatment(reference='AT'))[T.RO]               0.3000      0.137      2.188      0.029       0.031       0.569
+C(country, Treatment(reference='AT'))[T.RS]              -0.9600      0.137     -7.003      0.000      -1.229      -0.691
+C(country, Treatment(reference='AT'))[T.SE]              -0.1400      0.137     -1.021      0.308      -0.409       0.129
+C(country, Treatment(reference='AT'))[T.SI]               0.2000      0.137      1.459      0.145      -0.069       0.469
+C(country, Treatment(reference='AT'))[T.SK]              -0.3333      0.137     -2.431      0.015      -0.603      -0.064
+C(country, Treatment(reference='AT'))[T.TR]              -1.6267      0.137    -11.866      0.000      -1.896      -1.357
+==============================================================================
+Omnibus:                       12.271   Durbin-Watson:                   1.944
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               18.892
+Skew:                          -0.175   Prob(JB):                     7.90e-05
+Kurtosis:                       3.876   Cond. No.                         41.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
