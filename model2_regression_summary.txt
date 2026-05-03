@@ -3,8 +3,8 @@
 Dep. Variable:      life_satisfaction   R-squared:                       0.316
 Model:                            OLS   Adj. R-squared:                  0.308
 Method:                 Least Squares   F-statistic:                     38.75
-Date:                Sat, 02 May 2026   Prob (F-statistic):           1.03e-38
-Time:                        19:39:11   Log-Likelihood:                -421.02
+Date:                Sun, 03 May 2026   Prob (F-statistic):           1.03e-38
+Time:                        15:53:44   Log-Likelihood:                -421.02
 No. Observations:                 510   AIC:                             856.0
 Df Residuals:                     503   BIC:                             885.7
 Df Model:                           6                                         
